@@ -1,0 +1,1 @@
+web: java $JAVA_OPTS -jar -Dserver.port=$PORT -Dspring.profiles.active=pdn build/libs/converter-1.0.jar
